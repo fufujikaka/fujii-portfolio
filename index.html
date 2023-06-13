@@ -1,0 +1,913 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <meta name="description" content="Webシステム(PHP/JavaScript等)開発企業です。周辺機器とのインター. フェースも必要に応じて開発します。">
+  <title>ホーム:リベルタスシステム株式会社</title>
+  <link rel="icon" href="img/favicon.png">
+  <link rel="stylesheet" href="stylesheet.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $('.slider').bxSlider({
+        auto: true,
+        pause: 4000,
+      });
+    });
+  </script>
+</head>
+
+<body>
+  <header>
+
+    <div class="item">
+      <img src="img/LSC_LOGO_600px.png" alt="" width="46" height="46">
+      <p>リベルタスシステム株式会社</P>
+    </div>
+
+
+
+
+
+
+    <div class="spp-menu">
+      <span class="material-icons" id="open">menu</span>
+    </div>
+
+  </header>
+
+  <div class="overlay">
+
+    <span class="material-icons" id="close">close</span>
+    <nav>
+
+      <ul class="pulldown_menu_7">
+        <li onclick="this.className = (this.className != 'menu_on') ? 'menu_on' : 'menu_off';">
+          <a class="ho">ホーム</a>
+
+          <ul>
+            <li><a href="index.html#service5" target="_blank">サービス</a></li>
+            <li><a href="index.html#works-1" target="_blank">仕事内容</a></li>
+            <li><a href="index.html#news" target="_blank">お知らせ</a></li>
+          </ul>
+
+        <li onclick="this.className = (this.className != 'menu_on') ? 'menu_on' : 'menu_off';">
+          <a class="ho">サービス</a>
+          <ul>
+            <li><a href="service.html#itso">ITソリューション</a></li>
+            <li><a href="service.html#system">システム開発</a></li>
+            <li><a href="service.html#rimoto">リモートワーク<br>サーバー</a></li>
+          </ul>
+        </li>
+        <li onclick="this.className = (this.className != 'menu_on') ? 'menu_on' : 'menu_off';">
+          <a class="ho">仕事内容</a>
+          <ul>
+            <li><a href="works.html#jirei">事例</a></li>
+            <li><a href="works.html#jisseki">実績</a></li>
+
+          </ul>
+        </li>
+        <li onclick="this.className = (this.className != 'menu_on') ? 'menu_on' : 'menu_off';">
+          <a class="ho">会社案内</a>
+          <ul>
+            <li><a href="company.html#gaiyou1">会社概要</a></li>
+            <li><a href="company.html#saiyou">採用情報</a></li>
+            <li><a href="company.html#rinenn">理念</a></li>
+            <li><a href="company.html#syamei">社名について</a></li>
+            <li><a href="company.html#aisatu">社長あいさつ</a></li>
+
+          </ul>
+        </li>
+        <li onclick="this.className = (this.className != 'menu_on') ? 'menu_on' : 'menu_off';">
+          <a class="ho">お問い合わせ</a>
+          <ul>
+            <li><a href="contact15.php#map">アクセス</a></li>
+
+            <li><a href="contact15.php#contact">お問い合わせ</a></li>
+          </ul>
+        </li>
+
+
+
+
+
+      </ul>
+
+
+
+    </nav>
+  </div>
+
+  <div class="navbernew">
+    <div class="container">
+      <div class="row pc-menu">
+        <ul>
+          <li class="active" id="home"><a href="index.html#home">ホーム</a>
+            <div class="subMenu-1">
+              <ul>
+                <li><a href="#service5">サービス</a></li>
+                <li><a href="#works-1">仕事内容</a></li>
+                <li><a href="#news">お知らせ</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="service.html#service-6">サービス</a>
+            <div class="subMenu-1">
+              <ul>
+                <li><a href="service.html#itso">ITソリューション</a></li>
+                <li><a href="service.html#system">システム開発</a></li>
+                <li><a href="service.html#rimoto">リモートワーク<br>サーバー</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="works.html#works-3">仕事内容</a>
+            <div class="subMenu-1">
+              <ul>
+                <li><a href="works.html#jirei">事例</a></li>
+                <li><a href="works.html#jisseki">実績</a></li>
+
+              </ul>
+            </div>
+          </li>
+
+          <li><a href="company.html#gaiyou1">会社案内</a>
+            <div class="subMenu-1">
+              <ul>
+                <li><a href="company.html#gaiyou2">会社概要</a></li>
+                <li><a href="company.html#saiyou">採用情報</a></li>
+                <li><a href="company.html#rinenn">理念</a></li>
+                <li><a href="company.html#syamei">社名について</a></li>
+                <li><a href="company.html#aisatu">社長あいさつ</a></li>
+
+              </ul>
+            </div>
+          </li>
+          <li><a href="contact15.php#contact5">お問い合わせ</a>
+            <div class="subMenu-1">
+              <ul>
+                <li><a href="contact15.php#map">アクセス</a></li>
+
+                <li><a href="contact15.php#contact">お問い合わせ</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <div class="slider">
+
+
+    <img src="img\itj.jpg" alt="">
+    <img src="img\sisutemu3_.jpg" alt="">
+    <img src="img\ri55.jpg" alt="">
+    <img src="img\青地球35.jpg" alt="">
+    <img src="img\oko5.png" alt="">
+  </div>
+
+  <!-- service section -->
+  <section id="service5">
+    <div class="container ">
+      <div class="row">
+        <div class="col-md-8 mx-auto text-center">
+          <!-- <h6 class="text-primary">SERVICE</h6> -->
+          <h1>私たちが提供するサービス</h1>
+        </div>
+      </div>
+
+      <div class="row mt-3 g-4">
+        <div class="col-md-4">
+          <div class="team-member card-effect ">
+            <img src="img/24680152_mmm.jpg" alt="">
+            <div class="my-4 px-1">
+              <h5 class="text-center">ITソリューション</h5>
+              <p>業務のIT化にお悩みの企業様、
+                リベルタシステムがサポートいたします。
+                是非ご相談ください。
+
+              </p>
+            </div>
+            <div class="d-md-flex justify-content-md-end">
+              <a href="service.html#itso" class="btn btn-primary">詳しくはこちら ➡</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="team-member card-effect ">
+            <img src="img/24291506_mmm.jpg" alt="">
+            <div class="my-4 px-1">
+              <h5 class="text-center">システム開発</h5>
+              <p>
+                サーバーシステム、Webシステムの
+                開発、構築、保守など様々なサービスを行っております。
+              </p>
+            </div>
+            <div class="d-md-flex justify-content-md-end">
+              <a href="service.html#system" class="btn btn-primary">詳しくはこちら ➡</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4">
+          <div class="team-member card-effect ">
+            <img src="img/3040946_mmm.jpg" alt="">
+            <div class="my-4 px-1">
+              <h5 class="rimodai">リモートワークサーバー</h5>
+              <P>
+                職場とご自宅を安全におつなぎする、
+                自社開発製品<span style="font-weight:bold;">
+                  リモートワークサーバー</span>をご提供いたします。
+
+              </P>
+            </div>
+            <div class="d-md-flex justify-content-md-end">
+              <a href="service.html#rimoto" class="btn btn-primary">詳しくはこちら ➡</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- works-1 section -->
+  <section class="row  py-10 newwork" id="works-1">
+    <div class="col-lg-4 col-img"></div>
+    <div class="col-lg-8">
+      <div class="container">
+
+        <div class="col-md-10 pt-4 offset-md-1">
+
+          <h1>仕事内容</h1>
+
+
+          <div class="feature d-flex mt-3">
+            <div class="iconbox me-3">
+              <i class='bx bx-bar-chart-alt-2'></i>
+            </div>
+            <div>
+
+              <p>
+                <span style="color: #2196F3;">
+                  ●</span>弊社は１０年以上システム開発に従事し、生産管理、品質管理の業務システムに特化したシステム開発会社です。<br>
+                豊富な経験とIT技術をもとに、お客様の様々なお悩みを解決いたします。<br><br>
+
+                <span style="color: #2196F3;">
+                  ●</span>オンプレミス、WEBシステムから、AWS、Azureの導入などクラウド化に伴うお客様の課題を、丁寧なヒアリング、業務分析、設計、構築、テスト、リリース、保守、管理までの一連の工程に対応いたします。<br><br>
+
+                <span style="color: #2196F3;">
+                  ●</span>開発方法では従来のウォーターフォールモデルでの開発手法に比べて短期間で開発できるアジャイル開発を採用しており、<br>
+                開発途中での追加や変更にも強く、お客様のご要望にお応えいたします。<br><br>
+
+                <span style="color: #2196F3;">
+                  ●</span>途中工程からの受託開発はもちろんのこと、お客様のご予算、案件に応じて、対応いたします。<br><br>
+
+                <span style="color: #2196F3;">
+                  ●</span>エラーなどの不具合があれば、担当者に直接連絡でき、早急対応が可能、アフターサポートもしております。<br><br>
+
+                <span style="color: #2196F3;">
+                  ●</span>仕事の効率化はしたいけど、具体的に何の業務をシステム化できるのか分からないとお悩みのお客様もぜひ、お気軽にご相談ください。<br>ヒアリングさせていただき、業務分析、ご提案をさせていただきます。<br><br>
+
+                <span style="color: #2196F3;">
+                  ●</span>お見積りは無料で承っております。 <br>
+                お気軽にお問い合わせください！
+
+
+              </p>
+
+            </div>
+          </div>
+  </section>
+
+
+
+  <section class="nayami">
+
+
+    <div class="hero">
+
+      <div>
+        <h2 class="heading-016">こんなお悩みありませんか？</h2>
+        <div class="hero2">
+          <div>
+            <p>■作業の効率化を考えてはいるけど、具体的に何から始めたらいいか分からない！<br>
+              ■クラウド化の導入ってどうするの？<br>
+              ■実際に作業の何が効率化できるのかが分からないから、一緒に考えてほしい!<br>
+              ■アプリの修正やアップデートのみしてほしいけど。。。など</p>
+          </div>
+          <div>
+            <img src="img/23257151.png" alt="悩み">
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="img/矢印アイコン　下5.svg" width="100" height="100" alt="">
+
+
+    <h1>お客様のお悩みに
+      <br>リベルタスシステムがお力になります！
+    </h1>
+
+    <img src="img/11324_color.png" alt="">
+
+  </section>
+
+
+  <section class="cases">
+    <div class="ribbon9">
+      <div class="box">
+        <img src="img/メガホンの無料アイコン12 (1).png" alt="">
+      </div>
+      <h2>お客様からお喜びの声を実例とともにご紹介いたします。</h2>
+      <div class="box2">
+        <img src="img/メガホンの無料アイコン12 (1).png" alt="">
+      </div>
+
+    </div>
+
+
+
+    <div class="CASE1">
+      <section class="case12">
+
+
+        <h3 class="heading-024" data-number="01">CASE1:　販売見通し策定ツール</h3>
+
+
+        <div class="box-003">
+          <h4>案件の概要</h4>
+          <div class="hero2">
+            <div>
+              <P>
+                ★システム名：販売見通し策定ツール<br>
+                ★システム概要：自動車会社の車両台数を取り込み、部品の必要個数、金額を見積もる
+                <br>★主な機能：<br>
+                ■マスター取り込み
+                <br>■営業担当者による策定
+                <br>■他システム渡しの連携データ作成
+                <br>★使用言語：Microsoft access（VBA）
+              </P>
+            </div>
+
+
+
+            <div class="sasie">
+              <img src="img/7543_color.png" alt="">
+
+            </div>
+          </div>
+        </div>
+
+        <details class="accordion-001">
+          <summary>お客様のお悩み：工程前</summary>
+          <p>
+          <ul class="list-002">
+            <li>扱う元データは同じだが、営業担当ごとに販売見通し策定用の管理Excelを持っており、作業が重複が発生。</li>
+            <li>複数の資料をもとに手打ちの為、人為的ミスが発生。</li>
+            <li>策定結果のExcelが複数出来上がり、一つの資料ですべてを確認できない。</li>
+          </ul>
+
+
+
+          <div class="arrow">
+            <img src="img/矢印アイコン　下5.svg" wight="32" height="32" alt="">
+            <h2 class="heading-016">データの一元管理をご提案</h2>
+
+            <div class="box-007">
+              <div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                  <path fill="#ffb36b"
+                    d="M13.6,4.4l6,6l-13,13L1.2,24c-0.7,0.1-1.3-0.5-1.2-1.2l0.6-5.4C0.6,17.4,13.6,4.4,13.6,4.4z M23.3,3.5l-2.8-2.8  c-0.9-0.9-2.3-0.9-3.2,0l-2.7,2.7l6,6l2.7-2.7C24.2,5.8,24.2,4.4,23.3,3.5z" />
+                </svg>
+                工夫したところ
+              </div>
+              <p>イメージが湧きやすいように作業工程を図解し、 何度も打ち合わせの場を儲け、相互理解に努めました。</p>
+            </div>
+          </div>
+          </p>
+        </details>
+
+
+        <details class="accordion-001">
+          <summary>お客様のお悩み：工程途中</summary>
+          <p>
+          <ul class="list-002">
+            <li>仕様変更への対応</li>
+            <li>追加案件がシステムで実際対応できるのかどうか
+            </li>
+
+          </ul>
+
+
+
+          <div class="arrow">
+            <img src="img/矢印アイコン　下5.svg" wight="32" height="32" alt="">
+            <h2 class="heading-016">イメージがわきやすいようにプロトタイプ版を作成し、<br>繰り返し検討を重ねた。
+            </h2>
+
+            <div class="box-007">
+              <div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                  <path fill="#ffb36b"
+                    d="M13.6,4.4l6,6l-13,13L1.2,24c-0.7,0.1-1.3-0.5-1.2-1.2l0.6-5.4C0.6,17.4,13.6,4.4,13.6,4.4z M23.3,3.5l-2.8-2.8  c-0.9-0.9-2.3-0.9-3.2,0l-2.7,2.7l6,6l2.7-2.7C24.2,5.8,24.2,4.4,23.3,3.5z" />
+                </svg>
+                工夫したところ
+              </div>
+              <p>案件の対応可否と仕様変更での優先順位を決め、<br>できる限りご要望に応えることができるように努めた。
+              </p>
+              <p>言語：Microsoft Access2010（スタンドアローン）<br>
+                開発：優先度の高い機能から着手し、<br>計画→設計→開発→テスト→本番稼働を繰り返し機能追加を図っていった。（フェーズとしては5段階あった）
+
+              </p>
+
+            </div>
+          </div>
+          </p>
+        </details>
+        <details class="accordion-001">
+          <summary>お客様のお悩み：工程後</summary>
+
+          <ul class="list-002">
+            <li>アプリの使い方が分からない</li>
+            <li>あいまいな使い方ができない</li>
+            <li>使いこなしていくうちに、改善要望が出てくる</li>
+            <li>保守契約を結んでいないため改善要望に費用が発生する</li>
+            <li>障害発生時の問い合わせと対応</li>
+
+
+
+          </ul>
+
+
+
+
+
+
+          <div class="arrow">
+            <img src="img/矢印アイコン　下5.svg" wight="32" height="32" alt="">
+            <h2 class="heading-016">保守契約をご提案させていただいた。
+            </h2>
+
+            <div class="box-007">
+              <div>
+
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32">
+                  <path fill="#ffb36b"
+                    d="M13.6,4.4l6,6l-13,13L1.2,24c-0.7,0.1-1.3-0.5-1.2-1.2l0.6-5.4C0.6,17.4,13.6,4.4,13.6,4.4z M23.3,3.5l-2.8-2.8  c-0.9-0.9-2.3-0.9-3.2,0l-2.7,2.7l6,6l2.7-2.7C24.2,5.8,24.2,4.4,23.3,3.5z" />
+                </svg>
+                工夫したところ
+              </div>
+              <p>①ご利用者様の立場に立って、親切丁寧に説明することを工夫した<br>
+                ②サポート範囲の中で改善要望には応えた<br>
+                ③障害発生時には早急な調査と対応を実施した<br>
+              </p>
+              <p>◎障害発生時には現象を確認しアプリの修正等を行った</p>
+            </div>
+          </div>
+
+        </details>
+
+
+
+        <div class="yoko">
+          <img src="img/xlsxファイルアイコン.png" width="54" height="54" alt="">
+          <h4>結果</h4>
+        </div>
+        <h2 class="heading-011">お客様から絶賛のお声を頂きました！</h2>
+
+        <div class="check">
+          <p style="font-weight:bold;">
+            <img src="img/チェックボックスのフリーアイコン.png" width="32" height="23" alt="">
+            転記作業の削減<br>
+            <img src="img/チェックボックスのフリーアイコン.png" width="32" height="32" alt="">資料の統一可<br>
+            <img src="img/チェックボックスのフリーアイコン.png" width="32" height="32" alt="">作業時間が半分に！<br>
+            <img src="img/チェックボックスのフリーアイコン.png" width="32" height="32" alt="">BCP等への応用
+          </p>
+        </div>
+        <div class="sasie2">
+
+          <img src="img/16911_color.png" alt="">
+        </div>
+
+        <div class="point">
+          <p>成功のポイント</p>
+          <ul class="list-003">
+            <li>自分が納得するまで質問を繰り返した</li>
+            <li>相互理解があっていることを必ず確認した</li>
+            <li>設計段階で前提条件をしっかりと取り決めた</li>
+            <li>単体テストの段階でバグを早期に発見しバグの作り込みを行わないように努めた</li>
+            <li>追加コストが発生しないように見積もりの段階でしっかりと調査（ヒヤリング）を行った</li>
+          </ul>
+
+        </div>
+      </section>
+  </section>
+
+  </div>
+
+
+
+  <div class="CASE2">
+    <section class="case12">
+
+      <h3 class="heading-025" data-number="02">CASE2:　バージョンアップに伴いAccessが使えない</h3>
+
+
+
+      <div class="box-003">
+        <h4>案件の概要</h4>
+        <div class="hero2">
+          <div>
+            <P>
+              ★開発はお客様の要望（要件定義）を元に既存プログラムと仕様書を改修
+
+              <br>★使用言語：PHP、JavaScript
+            </P>
+          </div>
+
+
+          <div class="sasie2">
+            <img src="img/11835_color.png" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="box-013">
+        <span>お客様のお悩み</span>
+        <p>Microsoft Accessで行っていた処理（ExcelやCSVのファイルを読込み、Excel帳票を出力する）がMicrosoft
+          Officeのバージョンアップに伴い<br>
+          Accessが使えなくなってしまった<br>
+          どうしよう。。。
+        </p>
+      </div>
+
+
+
+      <div class="arrow">
+        <img src="img/矢印アイコン　下5.svg" wight="32" height="32" alt="">
+        <h2 class="heading-021">こちらからのご提案</h2>
+        <h2 class="heading-016">
+          お客様の要望に応え、Accessで行っていた処理をブラウザで動作する既存のWEBシステムに移行</h2>
+
+      </div>
+
+      <div class="yoko">
+        <img src="img/PCディスプレイのアイコン素材 2.svg" width="54" height="54" alt="">
+
+        <h4>　解決策</h4>
+
+      </div>
+      <div class="hero2">
+        <div class="balloon-001">
+          Excelファイルの帳票を出力するに当たり、Webシステムで用いているExcel出力機能ではシェイプ機能を使う出来なかったので、<br>
+          シェイプを画像ファイルとして別途保存し、それをExcelファイルに読み込ませることで代替を行いました。
+        </div>
+
+        <div class="sasie">
+          <img src="img/13206_color.png" alt="">
+        </div>
+      </div>
+    </section>
+  </div>
+
+  <section class="kaihatusya">
+    <div class="yoko">
+      <img src="img/吹き出しのアイコン3.png" width="54" height="54" alt="">
+      <h4>　開発者の取り組み</h4>
+    </div>
+    <div class="kaihatusya2 box-003">
+      <p>開発者の試行錯誤の工程の一部をご紹介いたします。
+      </p>
+
+      <div class="sono">
+        <p>
+          ～その失敗があるから、今の成功がある～</p>
+      </div>
+      <div class="box-016">
+        失敗したこと：<br>
+        既存プログラムの改修を行った際、<br>改修が必要なプログラムの量の見積もりを誤り、<br>それがテスト工程に響き納品後に大量の不具合を出してしまった。
+      </div>
+      <div class="box-017">
+        教訓：<br>テスト時に確認が必要な事項の洗い出しを綿密に行い、<br>エビデンスを細かく取得するようにしました。
+      </div>
+      <div class="kaiketu">
+        <p>　解決の工程～したから成功した～</p>
+      </div>
+      <div class="box-018">
+        <p>
+          異なるデータベースからデータを取得する処理の改修を行った際、開発環境では発生しなかったエラーが文字コードの関係で発生したことがあった。</p>
+        <div class="arrow">
+          <img src="img/矢印アイコン　下5.svg" wight="32" height="32" alt="">
+
+
+        </div>
+        <p>データベースから直接データを取得する処理では、文字コードの指定が行えなかった。</p>
+        <div class="arrow">
+          <img src="img/矢印アイコン　下5.svg" wight="32" height="32" alt="">
+          <p>一度データをテキストファイルにして保存、テキストファイルの文字コードを指定して読み込むことでエラーを回避した。</p>
+        </div>
+      </div>
+
+      <br>
+      <p>開発者の取り組みを少しご紹介致しました。<br><br>
+        弊社は各案件に開発担当者がつき、エラーなどが発生すれば直接連絡、早急な対応をさせていただいております。<br>
+        ご要望に応じて、アフターサービスも承っております。<br>
+        是非、お気軽にご相談ください。</p>
+
+    </div>
+
+    </div>
+  </section>
+
+
+
+
+
+
+  <section class="i-q">
+    <h2>お客様からよくあるご質問</h2>
+    <br>
+    <h10>リモートワークサーバー</h10>
+    <h2 class="heading-0211"></h2>
+
+    <details class="qa-001">
+      <summary>リモートワークサーバーって何？</summary>
+      <p>リベルタスシステムの自社開発製品で、テレワークを「もっと安全に！」「もっと快適に！」を実現致します。<br>
+        ご自宅から会社内へのサーバーへアクセスし、社内とお客様のテレワークスペースをお繋ぎ致します。<br>
+        インターネット環境と『リモートワークサーバー』で、快適テレワークを是非ご体験ください。<br>
+        ※インターネット環境はご用意をお願いいたします。
+      </p>
+    </details>
+
+    <details class="qa-001">
+      <summary>レンタルサーバーと何が違うの？</summary>
+      <p>レンタルサーバーとは、サーバーの貸出しをしてくれるサービスです。<br>
+        弊社の『リモートワークサーバー』はVPN接続をするためのルータです。<br>
+        VPN接続とは・・・インターネット上に仮想の専用線(VPNトンネル)を設置し、特定の人が利用できる専用ネットワークです。<br>
+        接続したい拠点(会社)にリモートワークサーバーを設置し、クライアント(ご自宅のパソコン)にVPNクライアントソフトをインストールし、VPNによる相互通信を行う事です。
+      </p>
+    </details>
+    <details class="qa-001">
+      <summary>セキュリティはちゃんとしているの？</summary>
+      <p>VPN接続では、「トンネリング」「暗号化」「承認」を設定することで、セキュリティ上安全にデータのやり取りを行う事ができます。<br>
+        「トンネリング」・・・データの送信者と受信者の間に仮想的なトンネル(トンネリング)を作り、通信を行います。<br>
+        「暗号化」・・・やり取りするデータを盗聴、改ざん等ができないように鍵をかけることができます。
+        <br>
+        「承認」・・・送信者と受信者同士がお互いに正しい相手だと確かめる方法です。
+        <br>
+        VPN接続はこのような仕組みになっている為、セキュリティが強化され、比較的安全に通信を行うことができます。
+
+      </p>
+    </details>
+
+    <details class="qa-001">
+      <summary>使えるOSは決まっているの？</summary>
+      <p>クライアント(ご自宅側)はWindowsの動作確認済。
+        Macは対応予定です。<br>会社側は特定のOSに依存しません。<br>
+        対応OS一覧は下記をご参照ください。</p>
+      <a href="https://www.desktopvpn.net/support/action/#osList" target="_blank">　　➡対応OS一覧</a>
+
+
+
+    </details>
+    <details class="qa-001">
+      <summary>リモートワークサーバーの大きさはどれくらい？</summary>
+      <p>9.5cm　x　6cm　x　3cmの手のひらサイズ程になります。<br>
+        お送りする内容はこちらをご参照ください。<br>
+        <a href="pdf\process1.pdf" target="_blank">リモートワークサーバーの接続方法はこちら（管理者）➡</a>
+      </p>
+    </details>
+
+
+
+
+
+
+    <br>
+    <h9>お客様の課題解決例</h9>
+
+
+    <h2 class="heading-0211">工程前の場合</h2>
+    <br>
+    <!-- <p>　工程前の場合</p> -->
+
+
+    <details class="qa-001">
+      <summary>「作業の効率化をアップさせたい」<br>
+        　「人為的」ミスを減らしたい」<br>
+        　「作業（労働）時間を減らしたい」<br>
+        　「データの一元化がしたい」<br>
+        　「業務の品質を向上させたい」</summary>
+      <p>自社は業務システムに特化しており、<br>
+        作業の効率化、業務の品質向上、自動化による人為的ミスの削減、作業時間の短縮、
+        紙ベース、アプリなどの複数の媒体のデータの一元管理などが可能です。<br>
+
+        ◎会計管理システム・販売管理システム・生産管理システム・営業管理システム・顧客管理システム・業務支援システムなど。</p>
+    </details>
+    <details class="qa-001">
+      <summary>「紙媒体の情報の保管をやめたい」</summary>
+      <p>紙媒体の情報をサーバー上での管理が可能です。<br>
+        今までの管理スペースが削減できます。
+        また、クラウド化を導入すれば、社内サーバの設置も不要になり、スペースやコストの削減も!</p>
+    </details>
+    <details class="qa-001">
+      <summary>クラウド化の導入って、何からやればいいだろう」</summary>
+      <p>自社ではAWS, Azureの導入、設定、保守なども行っており、業務のクラウド化の
+        サポートをいたします。</p>
+    </details>
+    <details class="qa-001">
+      <summary>「業務の効率化を考えてはいるけど、
+        具体的に何から始めたらいいか分からない。案件の資料が作れない。」</summary>
+      <p>まずはしっかりとヒアリングをさせていただき、10年以上の豊富な経験と実績をもとに、お客様にはさまざまな角度からのご提案をさせていただきます。</p>
+    </details>
+
+
+    <h2 class="heading-0211">工程途中の場合</h2>
+    <!-- <p>工程途中の場合</p> -->
+    <details class="qa-001">
+      <summary>「あとからの変更や追加などの対応をしてほしい」</summary>
+      <p>アジャイル開発を採用しており、『計画→設計→実装→テスト』といった開発工程を機能単位の小さいサイクルで繰り返す最大の特徴を生かし、開発途中でも仕様の変更や追加が可能。短期間で高品質のシステムをご提供いたします。
+        ※アジャイル開発でもこの方法がいいなど(スクラム、XP、ユーザー機能駆動開発など)ございましたら、お申し付けください。対応可能でございます。</p>
+    </details>
+    <h2 class="heading-0211">工程後の場合</h2>
+    <!-- <p>工程後の場合</p> -->
+    <details class="qa-001">
+      <summary>「障害時などの不具合の時、すぐ対応してほしい」</summary>
+      <p>担当者に直接連絡ができるようになっており、早急な対応をさせていただきます。</p>
+    </details>
+    <details class="qa-001">
+      <summary>「保守、運用は頼めるの？ 」</summary>
+      <p>ヒアリング、要件定義、業務分析、設計、構築、テスト、リリース、保守、運用まで承っております。
+        各工程からの受託開発はお客様の予算および案件に応じ、柔軟に対応いたします。</p>
+    </details>
+
+
+
+  </section>
+
+
+
+
+
+  <section class="row bg-light text-center news" id="news">
+
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-10 pt-4 offset-md-1">
+          <!-- <h6 class="text-primary">NEWS</h6> -->
+          <h1>お知らせ</h1>
+          <div class="feature  mt-3 scroll">
+            <h3 class="tadaima">
+              まずはお試し！今なら55日間無料！</h3>
+
+            <p class="honnbunn">
+              <span style="color: red ">10</span>台限定で最大<span style="color: red ">55</span>日間無料体験を実施中。<br>
+              １台で最大ユーザー<span style="color:red">5</span>名のご利用が可能です。
+              お客様がリモートワークサーバーをお受け取りした日から起算して最大<span style="color:red">
+                55</span>日になります。
+              商品到着後、速やかに開封し設置をお願いいたします。
+              無料体験中に製品版をご契約いただいた場合、再設定不要で引き続きご利用いただけます。
+              尚、無料体験期間終了後のご契約は、再設定が必要となります。
+              ご契約に至らない場合、リモートワークサーバー一式をご返却願います。
+              その際の送料は、お客様負担となることを予めご了承ください。
+
+              <br>詳しい内容は<span style="color: #2196F3">
+                <a href="service.html#rimoto">こちら ➡</a></span>
+            </p>
+
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+
+
+
+  <!-- footer section -->
+  <footer>
+    <div class="footer-top">
+      <!-- <div class="container"> -->
+      <div class="row">
+
+        <div class="col-md-3 col-sm-3 text-center">
+          <h5 class="text-white"><a href="index.html#home">ホーム</a></h5>
+          <ul class="list-unstyled">
+            <li><a href="index.html#service5">サービス</a></li>
+            <li><a href="index.html#works-1">仕事内容</a></li>
+            <li><a href="index.html#news">お知らせ</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 text-center">
+          <h5 class="text-white"><a href="service.html#service-6">サービス</a></h5>
+          <ul class="list-unstyled">
+            <li><a href="service.html#itso">ITソリューション</a></li>
+            <li><a href="service.html#system">システム開発</a></li>
+            <li><a href="service.html#rimoto">リモートワークサーバー</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 text-center">
+          <h5 class="text-white"><a href="works.html#works-3">仕事内容</a></h5>
+          <ul class="list-unstyled">
+            <li><a href="works.html#jirei">事例</a></li>
+            <li><a href="works.html#jisseki">実績</a></li>
+
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 text-center">
+          <h5 class="text-white"><a href="company.html#gaiyou1">会社案内</a></h5>
+          <ul class="list-unstyled">
+            <li><a href="company.html#gaiyou2">会社概要</a></li>
+            <li><a href="company.html#saiyou">採用情報</a></li>
+            <li><a href="company.html#rinenn">理念</a></li>
+            <li><a href="company.html#syamei">社名について</a></li>
+            <li><a href="company.html#aisatu">社長あいさつ</a></li>
+
+            <li><a href="compliance1.html#compliance1" target="_blank" rel="noopener noreferrer">コンプライアンス</a></li>
+            <li><a href="security1.html#security1" target="_blank" rel="noopener noreferrer">情報セキュリティ</a></li>
+          </ul>
+        </div>
+        <div class="col-md-2 col-sm-2 text-center">
+          <h5 class="text-white"><a href="contact15.php#contact5">お問い合わせ</a></h5>
+          <ul class="list-unstyled">
+
+            <li><a href="contact15.php#map">アクセス</a></li>
+            <li><a href="contact15.php#contact">お問い合わせ</a></li>
+
+          </ul>
+        </div>
+
+      </div>
+    </div>
+    </div>
+    <div class="f-name">
+      <img src="img/LSC_LOGO_600px.png" alt="" width="30" height="30">
+      <p>リベルタスシステム株式会社<br>
+        <span style="font-size:14px">
+          Libertas System Co.,Ltd.</span>
+      </p>
+    </div>
+    <div class="copyright">
+      <p>© 2009-2021 Libertas System Co.,Ltd.</p>
+
+    </div>
+
+
+
+
+  </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
